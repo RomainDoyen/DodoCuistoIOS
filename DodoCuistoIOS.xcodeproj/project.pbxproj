@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		523B7790263838CC00DDDD11 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523B778F263838CC00DDDD11 /* Launch Screen.storyboard */; };
 		52E68F682632DCA800B148FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E68F672632DCA800B148FE /* AppDelegate.swift */; };
 		52E68F6A2632DCA800B148FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E68F692632DCA800B148FE /* SceneDelegate.swift */; };
 		52E68F6C2632DCA800B148FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E68F6B2632DCA800B148FE /* ViewController.swift */; };
 		52E68F6F2632DCA800B148FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E68F6D2632DCA800B148FE /* Main.storyboard */; };
 		52E68F712632DCB000B148FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E68F702632DCB000B148FE /* Assets.xcassets */; };
-		52E68F742632DCB000B148FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E68F722632DCB000B148FE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		523B778F263838CC00DDDD11 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		52E68F642632DCA800B148FE /* DodoCuistoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DodoCuistoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E68F672632DCA800B148FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52E68F692632DCA800B148FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		52E68F6B2632DCA800B148FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52E68F6E2632DCA800B148FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52E68F702632DCB000B148FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		52E68F732632DCB000B148FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52E68F752632DCB000B148FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,13 +56,13 @@
 		52E68F662632DCA800B148FE /* DodoCuistoIOS */ = {
 			isa = PBXGroup;
 			children = (
-				52E68F672632DCA800B148FE /* AppDelegate.swift */,
-				52E68F692632DCA800B148FE /* SceneDelegate.swift */,
 				52E68F6B2632DCA800B148FE /* ViewController.swift */,
 				52E68F6D2632DCA800B148FE /* Main.storyboard */,
+				52E68F672632DCA800B148FE /* AppDelegate.swift */,
+				52E68F692632DCA800B148FE /* SceneDelegate.swift */,
 				52E68F702632DCB000B148FE /* Assets.xcassets */,
-				52E68F722632DCB000B148FE /* LaunchScreen.storyboard */,
 				52E68F752632DCB000B148FE /* Info.plist */,
+				523B778F263838CC00DDDD11 /* Launch Screen.storyboard */,
 			);
 			path = DodoCuistoIOS;
 			sourceTree = "<group>";
@@ -124,7 +124,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E68F742632DCB000B148FE /* LaunchScreen.storyboard in Resources */,
+				523B7790263838CC00DDDD11 /* Launch Screen.storyboard in Resources */,
 				52E68F712632DCB000B148FE /* Assets.xcassets in Resources */,
 				52E68F6F2632DCA800B148FE /* Main.storyboard in Resources */,
 			);
@@ -152,14 +152,6 @@
 				52E68F6E2632DCA800B148FE /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		52E68F722632DCB000B148FE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52E68F732632DCB000B148FE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
