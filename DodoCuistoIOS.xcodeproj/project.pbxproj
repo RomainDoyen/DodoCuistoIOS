@@ -13,6 +13,10 @@
 		52E68F6C2632DCA800B148FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E68F6B2632DCA800B148FE /* ViewController.swift */; };
 		52E68F6F2632DCA800B148FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E68F6D2632DCA800B148FE /* Main.storyboard */; };
 		52E68F712632DCB000B148FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E68F702632DCB000B148FE /* Assets.xcassets */; };
+		52F9DAE22638910700BF2CF0 /* RecetteCategorie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9DAE12638910700BF2CF0 /* RecetteCategorie.swift */; };
+		52F9DAE6263891C700BF2CF0 /* ReccetteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9DAE5263891C700BF2CF0 /* ReccetteItem.swift */; };
+		52F9DAE9263892D900BF2CF0 /* RecetteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9DAE8263892D900BF2CF0 /* RecetteView.swift */; };
+		52F9DAEC2638936B00BF2CF0 /* RecetteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F9DAEB2638936B00BF2CF0 /* RecetteImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		52E68F6E2632DCA800B148FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52E68F702632DCB000B148FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52E68F752632DCB000B148FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52F9DAE12638910700BF2CF0 /* RecetteCategorie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecetteCategorie.swift; sourceTree = "<group>"; };
+		52F9DAE5263891C700BF2CF0 /* ReccetteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReccetteItem.swift; sourceTree = "<group>"; };
+		52F9DAE8263892D900BF2CF0 /* RecetteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecetteView.swift; sourceTree = "<group>"; };
+		52F9DAEB2638936B00BF2CF0 /* RecetteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecetteImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,9 @@
 		52E68F662632DCA800B148FE /* DodoCuistoIOS */ = {
 			isa = PBXGroup;
 			children = (
+				52F9DAE02638909E00BF2CF0 /* ViewDetails */,
+				52F9DADF2638904700BF2CF0 /* Utils */,
+				52F9DADE2638902100BF2CF0 /* Models */,
 				52E68F6B2632DCA800B148FE /* ViewController.swift */,
 				52E68F6D2632DCA800B148FE /* Main.storyboard */,
 				52E68F672632DCA800B148FE /* AppDelegate.swift */,
@@ -65,6 +76,31 @@
 				523B778F263838CC00DDDD11 /* Launch Screen.storyboard */,
 			);
 			path = DodoCuistoIOS;
+			sourceTree = "<group>";
+		};
+		52F9DADE2638902100BF2CF0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52F9DAE12638910700BF2CF0 /* RecetteCategorie.swift */,
+				52F9DAE5263891C700BF2CF0 /* ReccetteItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52F9DADF2638904700BF2CF0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		52F9DAE02638909E00BF2CF0 /* ViewDetails */ = {
+			isa = PBXGroup;
+			children = (
+				52F9DAE8263892D900BF2CF0 /* RecetteView.swift */,
+				52F9DAEB2638936B00BF2CF0 /* RecetteImageView.swift */,
+			);
+			path = ViewDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +173,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F9DAE22638910700BF2CF0 /* RecetteCategorie.swift in Sources */,
 				52E68F6C2632DCA800B148FE /* ViewController.swift in Sources */,
 				52E68F682632DCA800B148FE /* AppDelegate.swift in Sources */,
+				52F9DAEC2638936B00BF2CF0 /* RecetteImageView.swift in Sources */,
 				52E68F6A2632DCA800B148FE /* SceneDelegate.swift in Sources */,
+				52F9DAE6263891C700BF2CF0 /* ReccetteItem.swift in Sources */,
+				52F9DAE9263892D900BF2CF0 /* RecetteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
