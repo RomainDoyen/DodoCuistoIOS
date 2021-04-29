@@ -17,8 +17,7 @@ public class RecetteCategorie {
     public var BgImg : String!
     public var TotalOfRecipes : Int!
     
-    public init(id : Int!, categoryName : String!, bgImg : String!, totalOfRecipes : Int!)
-    {
+    public init(id : Int!, categoryName : String!, bgImg : String!, totalOfRecipes : Int!) {
         self.Id = id
         self.CategoryName = categoryName
         self.BgImg = bgImg
@@ -26,9 +25,7 @@ public class RecetteCategorie {
     }
     
     public init?(json: [String: Any]) {
-        guard let id = json["Id"] as? Int,
-            let categoryName = json["CategoryName"] as? String,
-            let bgImageUrl = json["BgImageUrl"] as? String
+        guard let id = json["Id"] as? Int, let categoryName = json["CategoryName"] as? String, let bgImageUrl = json["BgImageUrl"] as? String
         else {
             return nil
         }

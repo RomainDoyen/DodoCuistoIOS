@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		522517C0263AF2A900DB3410 /* CategorieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522517BF263AF2A900DB3410 /* CategorieController.swift */; };
+		522517C3263AF39C00DB3410 /* RecetteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522517C2263AF39C00DB3410 /* RecetteController.swift */; };
+		522517C6263B06A100DB3410 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522517C5263B06A100DB3410 /* Utils.swift */; };
 		523B7790263838CC00DDDD11 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523B778F263838CC00DDDD11 /* Launch Screen.storyboard */; };
 		52E68F682632DCA800B148FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E68F672632DCA800B148FE /* AppDelegate.swift */; };
 		52E68F6A2632DCA800B148FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E68F692632DCA800B148FE /* SceneDelegate.swift */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		522517BF263AF2A900DB3410 /* CategorieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorieController.swift; sourceTree = "<group>"; };
+		522517C2263AF39C00DB3410 /* RecetteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecetteController.swift; sourceTree = "<group>"; };
+		522517C5263B06A100DB3410 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		523B778F263838CC00DDDD11 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		52E68F642632DCA800B148FE /* DodoCuistoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DodoCuistoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E68F672632DCA800B148FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +80,8 @@
 				52E68F702632DCB000B148FE /* Assets.xcassets */,
 				52E68F752632DCB000B148FE /* Info.plist */,
 				523B778F263838CC00DDDD11 /* Launch Screen.storyboard */,
+				522517BF263AF2A900DB3410 /* CategorieController.swift */,
+				522517C2263AF39C00DB3410 /* RecetteController.swift */,
 			);
 			path = DodoCuistoIOS;
 			sourceTree = "<group>";
@@ -90,6 +98,7 @@
 		52F9DADF2638904700BF2CF0 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				522517C5263B06A100DB3410 /* Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -176,6 +185,9 @@
 				52F9DAE22638910700BF2CF0 /* RecetteCategorie.swift in Sources */,
 				52E68F6C2632DCA800B148FE /* ViewController.swift in Sources */,
 				52E68F682632DCA800B148FE /* AppDelegate.swift in Sources */,
+				522517C3263AF39C00DB3410 /* RecetteController.swift in Sources */,
+				522517C0263AF2A900DB3410 /* CategorieController.swift in Sources */,
+				522517C6263B06A100DB3410 /* Utils.swift in Sources */,
 				52F9DAEC2638936B00BF2CF0 /* RecetteImageView.swift in Sources */,
 				52E68F6A2632DCA800B148FE /* SceneDelegate.swift in Sources */,
 				52F9DAE6263891C700BF2CF0 /* ReccetteItem.swift in Sources */,

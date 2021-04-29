@@ -71,8 +71,7 @@ public class RecetteItem {
                 self.ImageLst?.append(imageUrlLst)
             }
         }
-        catch let error as NSError
-        {
+        catch let error as NSError {
             print("An error occurred: \(error)")
         }
     }

@@ -11,6 +11,7 @@ class RecetteImageView: UITableViewCell {
 
     @IBOutlet weak var lblDescription: UILabel!
     @IBOutlet weak var previewImg: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
